@@ -1,0 +1,1 @@
+F:\Kolekcje_JS\Kolekcje_JS.csproj;x64

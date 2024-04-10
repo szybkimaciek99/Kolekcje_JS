@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionManagmentSystem.Views.CollectionSummaryPage"
+             Title="Podsumowanie">
+    <StackLayout BackgroundColor="{StaticResource BackgroundColor}">
+        <Frame Style="{StaticResource MainFrameStyle}" WidthRequest="300" BackgroundColor="{StaticResource SecondColor}">
+            <StackLayout>
+                <Label Style="{StaticResource BoldLabelStyle}" Text="Ilość wszystkich przedmiotów: " FontAttributes="Bold"/>
+                <Label Style="{StaticResource BoldLabelStyle}" x:Name="totalItemsLabel" HorizontalOptions="Start"
+                       VerticalOptions="Center" VerticalTextAlignment="Center"/>
+
+                <Label Style="{StaticResource BoldLabelStyle}" Text="Ilość sprzedanych przedmiotów:" FontAttributes="Bold"/>
+                <Label Style="{StaticResource BoldLabelStyle}" x:Name="itemsSoldLabel" HorizontalOptions="Start"
+                       VerticalOptions="Center" VerticalTextAlignment="Center"/>
+
+                <Label Style="{StaticResource BoldLabelStyle}" Text="Ilość przedmiotów dostępnych na sprzedaż:" FontAttributes="Bold"/>
+                <Label Style="{StaticResource BoldLabelStyle}" x:Name="itemsForSaleLabel" HorizontalOptions="Start"
+                       VerticalOptions="Center" VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
